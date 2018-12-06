@@ -1,0 +1,254 @@
+.m_widget{
+    z-index: 0;
+    &:extend(.z-depth-main);
+    background: @theme_bg_card;
+    margin-top: @gap;
+    font-family: @fontfamily_base;
+    font-size: @fontsize_base;
+    &:first-child{
+        margin-top: 0;
+    }
+    // margin-left: @gap;
+    border-radius: @border_radius;
+    .enable-trans();
+    &:hover {
+        box-shadow: @boxshadow_card_raised;
+    }
+    &:active {
+        box-shadow: @boxshadow_card_normal;
+    }
+    // height: 100%;
+    @media(max-width: @on_phone) {
+        border-radius: 0;
+        width: 100%;
+        &:hover {
+            box-shadow: @boxshadow_card_normal;
+        }
+    }
+    width: @width_sidebar;
+    max-height: ~"calc(100% - @{height_navbar} - 4 * @{gap})";
+    .header{
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: @border_radius;
+        border-top-right-radius: @border_radius;
+        @media(max-width: @on_phone) {
+            border-radius: 0;
+        }
+        background-color: @theme_bg_card_header;
+        color: @theme_text_in_header;
+        font-weight: bold;
+        line-height: 1.5em;
+        padding: 8px @gap;
+        .rightBtn{
+          color: @theme_text_in_header;
+          &:hover {
+              color: darken(@theme_text_highlight, 25%);
+          }
+        }
+        &.pure{
+          background-color: @theme_bg_card;
+          color: @theme_base_tint;
+          padding-top: 14px; // 适合白色导航栏背景
+          padding-bottom: 14px; // 适合白色导航栏背景
+          .rightBtn{
+            color: @theme_base_tint;
+            &:hover {
+                color: darken(@theme_text_highlight, 25%);
+            }
+          }
+        }
+    }
+    .content{
+        text-align: justify;
+        padding: @gap/2;
+        max-height: ~"calc(100% - @{height_navbar} - 12.5 * @{gap})";
+        ul.entry > li > a{
+           padding: 0 @gap;
+           line-height:@height_cell;
+           height: @height_cell;
+           display: flex;
+           justify-content: space-between;
+           align-content: center;
+           border-left: 2px solid transparent;
+           .enable-trans();
+           .name{
+               flex:auto;
+               &:extend(.txt-ellipsis);
+               color: fade(@theme_text_main,70%);
+           }
+           .badge{
+               flex:none;
+               font-size: @fontsize_small;
+               color: fade(@theme_text_main, 50%);
+           }
+           &:hover{
+               border-left: 4px solid @theme_bg_quote;
+               background: fade(@theme_bg_quote, 10%);
+           }
+           &:active{
+               border-left: 8px solid @theme_bg_quote;
+           }
+       }
+    }
+
+
+}
+.m_widget.author{
+    .enable-trans();
+    h2{
+        text-align: center;
+        // color: @theme_text_header;
+    }
+    .header{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        @media(max-width: @on_phone){
+            padding: @gap/2;
+        }
+    }
+    img{
+        width: @width_sidebar;
+        height: @width_sidebar;
+        @media(max-width: @on_phone){
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            margin-top: @gap/2;
+        }
+        border-top-left-radius: @border_radius;
+        border-top-right-radius: @border_radius;
+    }
+    .content{
+      p{
+        font-size: @fontsize_base;
+        text-align: center;
+      }
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 0;
+        padding: @gap/2 @gap 0 @gap;
+        @media(max-width: @on_phone){
+            padding: @gap/2 @gap;
+        }
+    }
+    .social-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 4px @gap/2;
+        a {
+            color: fade(@theme_text_main, 70%);
+            .enable-trans();
+            &:hover {
+                color: @theme_text_highlight;
+            }
+            &.social {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+                margin: 4px;
+                border-radius: 100px;
+                &:hover {
+                    background: fade(@theme_bg_quote, 10%);
+                    color: @theme_bg_quote;
+                }
+            }
+        }
+    }
+}
+
+.m_widget.announcement{
+  .content{
+      font-size: @fontsize_small;
+      font-weight: bold;
+      word-break: break-all;
+      padding: @gap/2 @gap;
+      &.pure{
+        padding: 0 @gap @gap @gap; // 适合白色导航栏背景
+      }
+      a{
+        color: @theme_text_link;
+        .enable-trans();
+        &:hover {
+            color: @theme_text_highlight;
+            text-decoration: underline;
+        }
+        &:active {
+            color: darken(@theme_text_highlight, 25%);
+        }
+      }
+  }
+}
+.m_widget.categories{
+    .content{
+        padding: @gap/2 0;
+        &.pure{
+          padding-top: 0; // 适合白色导航栏背景
+        }
+    }
+}
+
+.m_widget.tagcloud{
+    .content{
+        text-align: justify;
+        padding: @gap/2 @gap;
+        &.pure{
+          padding-top: 0; // 适合白色导航栏背景
+        }
+        a{
+            display:inline-block;
+            .enable-trans(.1s);
+            line-height: 1.6em;
+            &:hover{
+                color: @theme_text_highlight !important; //to cover inline style.
+                text-decoration: underline
+            }
+        }
+    }
+}
+.m_widget.contacts{
+    .content{
+        padding: @gap/2 0;
+        &.pure{
+          padding-top: 0; // 适合白色导航栏背景
+        }
+
+    }
+}
+.m_widget.music{
+    .header{
+      &.pure{
+        padding-bottom: @gap/4; // 适合白色导航栏背景
+      }
+    }
+    .content{
+        padding: @gap/2;
+        &.pure{
+          padding-top: @gap/4; // 适合白色导航栏背景
+        }
+    }
+}
+.m_widget.links{
+    .content{
+        padding: @gap/2 0;
+        &.pure{
+          padding-top: 0; // 适合白色导航栏背景
+        }
+        .name{
+          img{
+            display: inline;
+            border-radius: 100%;
+            vertical-align: middle;
+            height: 18px;
+            width: 18px;
+            margin-bottom: 4px;
+          }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+<header class="l_header <%= theme.style %>">
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+			<a class="logo flat-box" href='<%= url_for("/") %>' ><%- config.title %></a>
+				<div class='menu'>
+					<ul class='h-list'>
+            <% if (config.nav_menu) { %>
+    					<% (config.nav_menu || []).forEach(function(value){ %>
+    						<li>
+    							<a class="nav<%- url_for(path).substring(0, url_for(path).lastIndexOf('/') + 1) == url_for(value.url) ? ' current' : '' %> flat-box" href="<%= url_for(value.url) %>">
+    								<i class='<%=value.icon%> fa-fw'></i>&nbsp;<%=value.name%>
+  								</a>
+  							</li>
+        			<%})%>
+        		<% } %>
+					</ul>
+					<div class='underline'></div>
+				</div>
+
+			<% if (theme.search.enable === true) { %>
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="Search" />
+						<span class="icon"><i class="fas fa-search fa-fw"></i></span>
+					</form>
+				</div>
+			<% } %>
+			<ul class='switcher h-list'>
+				<% if (theme.search.enable === true) { %>
+					<li class='s-search'><a class="fas fa-search fa-fw" href='javascript:void(0)'></span></a></li>
+				<% } %>
+				<li class='s-menu'><a class="fas fa-bars fa-fw" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="fas fa-comments fa-fw" href='javascript:void(0)'></a></li>
+				<li class='s-top'><a class="fas fa-arrow-up fa-fw" href='javascript:void(0)'></a></li>
+				<li class='s-toc'><a class="fas fa-list fa-fw" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone">
+		<nav>
+      <ul>
+          <% if (config.nav_menu) { %>
+              <% (config.nav_menu || []).forEach(function(value){ %>
+                  <li>
+										<a class="nav <%- page.path.replace('index.html', '').replace("/", "") == value.url.replace("/", "") ? 'current' : '' %> flat-box" href="<%= url_for(value.url) %>">
+											<i class='<%=value.icon%> fa-fw'></i>&nbsp;<%=value.name%>
+										</a>
+                  </li>
+              <%})%>
+       <% } %>
+      </ul>
+		</nav>
+	</aside>

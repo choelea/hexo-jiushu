@@ -1,0 +1,143 @@
+#####################################
+##      Material X                 ##
+##      version: 1.0 beta2         ##
+##      updated: 2018-11-25        ##
+#####################################
+
+# >> 主题配置写法示例 ---------------------------------------------------------------------
+# ⚠️ 注意：这里的内容需要复制到主目录到config中才有效，写在这里是为了提供参考
+
+# 导航栏，url必须以 "/" 结尾
+nav_menu:
+  - name: 主页
+    icon: fas fa-home
+    url: https://xaoxuu.com/
+  - name: 项目
+    icon: fas fa-flask
+    url: https://xaoxuu.com/projects/
+  - name: 博客
+    icon: fas fa-rss
+    url: /
+  - name: 归档
+    icon: fas fa-archive
+    url: archives/
+  - name: 关于
+    icon: fas fa-user
+    url: https://xaoxuu.com/about/
+
+# 公告的写法示例，这只是个例子哦，需要显示公告的时候写在主目录的config中，不需要的时候注释掉就可以，如果你十分喜欢这个主题，可以把这个公告copy到你那里😄
+announcement: '本站使用 <b><a href="https://xaoxuu.com/wiki/material-x/">Material X</a></b> 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦。'
+
+# 友链的写法示例
+links:
+- name: xaoxuu's blog
+  avatar: https://xaoxuu.com/assets/img/avatar.jpg
+  url: https://xaoxuu.com/blog
+
+# 页脚社交信息的写法示例
+social:
+  - icon: fas fa-envelope
+    url: mailto:me@xaoxuu.com
+  - icon: fab fa-github
+    url: https://github.com/xaoxuu
+  - icon: fas fa-music
+    url: https://music.163.com/#/user/home?id=63035382
+
+# 博主信息的写法示例
+avatar: https://xaoxuu.com/assets/img/avatar.jpg
+title: 博客名称
+motto: 这是我的座右铭
+
+# 百度统计key
+baidu_analytics_key: xxx
+# leancloud统计
+leancloud_analytics:
+  appId: xxx
+  appKey: xxx
+
+
+# >> 主题配置 ---------------------------------------------------------------------
+# ✅ 这里的内容直接在下面进行修改
+
+# 字体 在这里选好你需要的字体：https://fonts.google.com，然后在_defines.less中修改font_family。
+google_fonts: 'Ubuntu|Ubuntu+Mono' # 多个字体中间用英文竖线隔开
+
+# style: material    # 导航栏和标题栏背景是主题色
+style: pure        # 导航栏和标题栏背景是白色
+
+# 右边的小窗口，不想显示哪一项的把enable设置为false即可
+widgets:
+  # 博主信息区，是否显示个人头像、格言、社交信息等
+  author:
+    enable: true
+    avatar: true # 是否显示头像，如果是，需要在主目录的config中写avatar的URL
+    title: false # 是否显示博客名、头衔等等。如果是，需要在主目录的config中写title
+    motto: false # 是否显示格言座右铭等等。如果是，需要在主目录的config中写motto
+    social: true # 是否显示社交信息（内容同页脚的社交信息）如果是，需要在主目录的config中写social，支持icon和URL
+  # 公告，内容写在主目录的config中
+  announcement:
+    enable: true
+    icon: fas fa-bullhorn
+    title: "公告"
+  # 显示文章分类
+  categories:
+    enable: true
+    icon: fas fa-folder-open
+    title: "分类"
+  # 显示文章标签
+  tagcloud:
+    enable: true
+    icon: fas fa-tags
+    title: "标签"
+  # 显示网易云歌单
+  music:
+    enable: true
+    icon: fas fa-headphones-alt
+    title: "音乐"
+    playlist_id: 746319661 # 歌单id
+  # 显示友链，友链的内容写在主目录的config中
+  links:
+    enable: true
+    icon: fas fa-handshake
+    title: "友链"
+    mailto: "me@xaoxuu.com" # 右边显示➕ ，点击给这个地址发送邮件添加友链
+  # 显示目录（在文章中设置toc:false可以隐藏单篇文章的目录）
+  toc:
+    enable: true
+    icon: fas fa-list
+    title: "目录"
+
+
+# 推荐文章
+recommended_posts:
+  autoDisplay: false # 自动在文章底部显示推荐文章，如果你使用Material-X主题，这里要设置为false。
+  server: https://api.truelaurel.com # 后端推荐服务器地址
+  timeoutInMillis: 10000 # 服务时长，超过此时长，则使用离线推荐模式
+  excludePattern: []
+  titleHtml: <h4>推荐文章</h4> #自定义标题
+  internalLinks: 3 # 内部文章数量
+  externalLinks: 2 # 外部文章数量
+  fixedNumber: false
+
+
+# Search
+search:
+  enable: true
+  service: hexo
+  # google
+  google_api_key:
+  google_engine_id:
+  # algolia
+  algolia_app_id:
+  algolia_api_key:
+  algolia_index_name:
+  # azure
+  azure_service_name:
+  azure_index_name:
+  azure_query_key:
+  # baidu
+  baidu_api_id:
+
+# Less
+less:
+  compress: true
