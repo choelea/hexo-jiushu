@@ -31,8 +31,8 @@
   <%- feed_tag(config.feed.path, {title: config.title}) %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="shortcut icon" href="<%= config.shortcut_icon %>" />
-  <link rel="icon" href="<%= config.favicon %>" />
+  <link rel="shortcut icon" href="<%= config.shortcut_icon %>" type="image/x-icon"  />
+  <link rel="icon" href="<%= config.favicon %>" type="image/x-icon"  />
   <% if (theme.google_fonts){ %>
   <link href="https://fonts.googleapis.com/css?family=<%= theme.google_fonts %>" rel="stylesheet">
   <% } else { %>
