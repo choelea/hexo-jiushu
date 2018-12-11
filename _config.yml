@@ -75,11 +75,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: material-x
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
-
 shortcut_icon: "http://localhost:4000/assets/img/favicon.ico"
 favicon: "http://localhost:4000/assets/img/favicon.ico"
 nav_menu:
