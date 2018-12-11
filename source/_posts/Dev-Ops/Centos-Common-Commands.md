@@ -2,7 +2,7 @@
 title: Centos 常用命令
 sort: 1
 description: Centos 常用命令
-...
+---
 
 > 以下命令仅在centos7上验证过
 

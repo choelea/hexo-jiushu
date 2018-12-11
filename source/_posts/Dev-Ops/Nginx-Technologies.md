@@ -1,7 +1,7 @@
 ---
 title: Nginx 问题收集
 description: Nginx 使用问题收集
-...
+---
 
 收集在使用Nginx过程中遇见的问题。
 

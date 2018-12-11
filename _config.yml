@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.jiu-shu.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -80,7 +80,8 @@ theme: material-x
 deploy:
   type:
 
-
+shortcut_icon: "http://localhost:4000/assets/img/favicon.ico"
+favicon: "http://localhost:4000/assets/img/favicon.ico"
 nav_menu:
   - name: 主页
     icon: fas fa-home
@@ -110,19 +111,31 @@ links:
 # 页脚社交信息的写法示例
 social:
   - icon: fas fa-envelope
-    url: mailto:me@xaoxuu.com
+    url: mailto:joe.lea@foxmail.com
   - icon: fab fa-github
-    url: https://github.com/xaoxuu
+    url: https://github.com/choelea
   - icon: fas fa-music
-    url: https://music.163.com/#/user/home?id=63035382
+    url: https://music.163.com/#/user/home?id=781987646
 
 # 博主信息的写法示例
 avatar: http://localhost:4000/assets/img/avatar.jpg
 motto: 保持快乐 享受生活; 放下自我 换位思维。
 
 # 百度统计key
-baidu_analytics_key: xxx
+baidu_analytics_key: 3fd67b824da2406da99e2941d5c0d062
 # leancloud统计
 leancloud_analytics:
-  appId: xxx
-  appKey: xxx
+ appId: HnFN3camhSX52IMir3lqT3hM-gzGzoHsz
+ appKey: vJsgB1TGKlmniiQsWp51HJaJ
+
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  app_id: HnFN3camhSX52IMir3lqT3hM-gzGzoHsz
+  app_key: vJsgB1TGKlmniiQsWp51HJaJ
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mp # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false)
+  lang: zh-cn

@@ -1,7 +1,7 @@
 ---
 title:  MongoDB 命令 常用语句
 description: Mongodb常用命令
-...
+---
 
 mongodb 常用命令收集
 ## 导出JSON数据
