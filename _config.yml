@@ -139,3 +139,9 @@ valine:
   verify: false # valine verify code (true/false)
   notify: false # valine mail notify (true/false)
   lang: zh-cn
+
+deploy:
+  type: git   
+  repo: git@github.com:choelea/hexo-jiushu.git
+  branch: published
+  message: 
