@@ -31,3 +31,4 @@ npm-debug.log
 .DS_Store
 
 db.json
+.deploy_git
