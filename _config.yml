@@ -137,6 +137,6 @@ valine:
 
 deploy:
   type: git   
-  repo: git@github.com:choelea/hexo-jiushu.git
-  branch: published
+  repo: git@github.com:choelea/choelea.github.io.git
+  branch: master
   message: 
