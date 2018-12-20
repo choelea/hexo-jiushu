@@ -209,18 +209,18 @@
     &.pure{
       background: @theme_base_card_bg;
       &, a{
-        color: white;
+        color: fade(@theme_text_in_header,60%);
       }
       box-shadow: @boxshadow_card_normal; // 适合白色导航栏背景
       .menu{
           ul > li > a{
-              color: fade(@theme_base_tint,60%);
+              color: fade(@theme_text_in_header,60%);
               &.current{
-                border-bottom: 4px solid fade(@theme_base_tint, 80%);
+                border-bottom: 4px solid fade(@@theme_text_in_header, 80%);
               }
               &:hover{
-                  color: @theme_base_tint;
-                  border-bottom: 4px solid @theme_base_tint;
+                  color: @theme_text_in_header;
+                  border-bottom: 4px solid @theme_text_in_header;
                   background: fade(@theme_base_tint, 10%);
               }
           }

@@ -77,31 +77,22 @@ theme: material-x
 
 shortcut_icon: "https://choelea.github.io/assets/img/favicon.ico"
 favicon: "https://choelea.github.io/assets/img/favicon.ico"
-nav_menu:
+#nav_menu:
   - name: 主页
     icon: fas fa-home
     url: https://choelea.github.io/
-  - name: 项目
-    icon: fas fa-flask
-    url: https://choelea.github.io/projects/
-  - name: 博客
-    icon: fas fa-rss
-    url: /
   - name: 归档
     icon: fas fa-archive
     url: archives/
-  - name: 关于
-    icon: fas fa-user
-    url: https://choelea.github.io/about/
 
 # 公告的写法示例，这只是个例子哦，需要显示公告的时候写在主目录的config中，不需要的时候注释掉就可以，如果你十分喜欢这个主题，可以把这个公告copy到你那里😄
-announcement: '本站使用 <b><a href="https://choelea.github.io/wiki/material-x/">Material X</a></b> 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦。'
+announcement: '感谢留下评论和指出错误的朋友!'
 
 # 友链的写法示例
-links:
-- name: xaoxuu's blog
-  avatar: https://choelea.github.io/assets/img/avatar.jpg
-  url: https://choelea.github.io/blog
+#links:
+#- name: xaoxuu's blog
+#  avatar: https://choelea.github.io/assets/img/avatar.jpg
+#  url: https://choelea.github.io/blog
 
 # 页脚社交信息的写法示例
 social:
