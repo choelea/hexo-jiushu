@@ -77,7 +77,7 @@ theme: material-x
 
 shortcut_icon: "https://choelea.github.io/assets/img/favicon.ico"
 favicon: "https://choelea.github.io/assets/img/favicon.ico"
-#nav_menu:
+nav_menu:
   - name: 主页
     icon: fas fa-home
     url: https://choelea.github.io/
