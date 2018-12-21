@@ -13,7 +13,7 @@ SEO 优化：
  2. 页面布局，图片的URL，图片的alt信息 等都需要考虑
  3. 网站内的内链
  3. 异步使用的恰当，简单的链接更有助于网站收录
-> SEO 的详细介绍请参考：[网站SEO优化最佳实践](http://tech.jiu-shu.com/Web-Applications-Technologies/%E7%BD%91%E7%AB%99SEO%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93)
+> SEO 的详细介绍请参考：[网站SEO优化最佳实践](/assets/preimg/Web-Applications-Technologies/%E7%BD%91%E7%AB%99SEO%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93)
 
 ### 网页速度
 网页相应速度涉及用户体验，同时也会影响到SEO的排名， 可以通过[Google Page Insights](https://developers.google.com/speed/pagespeed/insights/) 来检查网页速度相关问题。 一般优化网页速度的包括：

@@ -19,7 +19,7 @@ https://github.com/choelea/spring-boot-trail-static-content/releases/tag/version
 
 ## 默认行为
 OOTB 的情况下，不用任何代码Spring Boot 的Web 程序已经满足了常规静态资源的需求。
-![静态资源的请求头](http://tech.jiu-shu.com/Spring-Boot-And-Spring-Cloud/static-resources.jpg)
+![静态资源的请求头](/assets/preimg/Spring-Boot-And-Spring-Cloud/static-resources.jpg)
 默认情况下，静态资源的response header中并没有cache 相关的设置。（expires / cache-control header.） 这种情况下，各个浏览器的默认行为有可能不一样。 （简单测试：chrome貌似会无限期缓存，firefox缓存了一个小时)
 ## 设定缓存时间
 在`application.properties` 中添加如下配置：（单位：秒, 3600*24*365 ）

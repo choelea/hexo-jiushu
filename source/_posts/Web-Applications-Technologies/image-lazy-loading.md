@@ -7,7 +7,7 @@ description: 页面图片请求太多，影响整个页面的相应速度，采�
 
 ## 非懒加载
 如果一个页面比较复杂, 转灯有几十上百个图片，无疑会很影响页面的性能。下面这个是笔者实际经历的，转灯有几十个slides, 图片就更多了，一次性的图片并发相当大，严重影响页面的响应速度。
-![转灯延时加载](http://tech.jiu-shu.com/Web-Applications-Technologies/carousel-lazy-loading.jpg)
+![转灯延时加载](/assets/preimg/Web-Applications-Technologies/carousel-lazy-loading.jpg)
 
 下面的代码是bootstrap的转灯carousel的示例，通过chrome的开发者工具可以看到，会有三个image的request 发出。
 ```html

@@ -3,15 +3,15 @@ title:  同源策略下为什么还需要防御CSRF
 description: 同源策略下为什么还需要防御CSRF，这篇文章用来解释这个疑惑，并给出简单通用的应对策略。
 ---
 
-前面的章节[搞定跨域资源共享 (CORS)](http://tech.jiu-shu.com/Web-Applications-Technologies/cors-solution)中我们提到了浏览器的同源的安全策略，就算允许跨域，也可以限制被允许的域；比如只限制同一个父域下面的子域名来访问资源。 为什么在这样的策略下面，我们依然需要应对CSRF（Cross Site Request Forgery，跨站请求伪造）？
+前面的章节[搞定跨域资源共享 (CORS)](/assets/preimg/Web-Applications-Technologies/cors-solution)中我们提到了浏览器的同源的安全策略，就算允许跨域，也可以限制被允许的域；比如只限制同一个父域下面的子域名来访问资源。 为什么在这样的策略下面，我们依然需要应对CSRF（Cross Site Request Forgery，跨站请求伪造）？
 
 **通过下面的两张图来快速理解CSRF的存在。**
 
- ![csrf-form.jpg](http://tech.jiu-shu.com/Web-Applications-Technologies/csrf-form.jpg)
+ ![csrf-form.jpg](/assets/preimg/Web-Applications-Technologies/csrf-form.jpg)
  
  > CSRF攻击的一个很好的例子可能是受害者最近在他们的银行登录帐户并且有效会话启动并运行的攻击。在登录时，会向用户发送一封假冒电子邮件作为他的银行。单击该电子邮件会将他发送到攻击者的站点，该站点的外观可能看起来像银行站点。实际上，该网站对真实银行的运营终端执行POST，以便汇款，将资金从受害者帐户转移到攻击者手中。由于用户的会话仍然有效，因此接受操作并且攻击成功。
  
- ![csrf.png](http://tech.jiu-shu.com/Web-Applications-Technologies/csrf.png)
+ ![csrf.png](/assets/preimg/Web-Applications-Technologies/csrf.png)
  
  
  ## 演示CSRF的存在

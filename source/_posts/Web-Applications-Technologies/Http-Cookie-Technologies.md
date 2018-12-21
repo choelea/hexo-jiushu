@@ -47,13 +47,13 @@ public ResponseEntity<?> cookieTest(final HttpServletRequest request,HttpServlet
 ### 测试一
 
 请求 http://diaoyouyun.com/bee/cookietest 如下：
-![cookietest](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-1.png)
+![cookietest](/assets/preimg/Web-Applications-Technologies/cookie-1.png)
 
 那些cookie会被接受呢？访问http://diaoyouyun.com/bee 从下图可以看出
-![Cookies_http://diaoyouyun.com](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-2.png)
+![Cookies_http://diaoyouyun.com](/assets/preimg/Web-Applications-Technologies/cookie-2.png)
 
 访问http://www.diaoyouyun.com/bee/来查看有哪些cookie
-![cookies](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-3.png)
+![cookies](/assets/preimg/Web-Applications-Technologies/cookie-3.png)
 
 **关于Java Tomcat 服务端Set-Cookie: 可以得出以下结论：**
 
@@ -65,9 +65,9 @@ public ResponseEntity<?> cookieTest(final HttpServletRequest request,HttpServlet
 > 测试前清空相关站点的cookie
 
 通过请求：http://www.diaoyouyun.com/bee/cookietest 来设置cookie
-![Request](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-4.png)
+![Request](/assets/preimg/Web-Applications-Technologies/cookie-4.png)
 访问http://www.diaoyouyun.com/bee/
-![cookies](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-5.png)
+![cookies](/assets/preimg/Web-Applications-Technologies/cookie-5.png)
 发现还是只有cookie-1和cookie4， 但是其实**cookie2 也被浏览器接受了，只是cookie2 设置的path是/bee/collect 所以基于当前访问路径（http://www.diaoyouyun.com/bee/）chrome的开放工具中无法查看到cookie2。通过查看浏览器上所有站点cookie内容，可以在www.diaoyouyun.com 中找到cookie2。 （**反思：**测试一的 cookie2 是否真的未被接受？）
 
 访问http://diaoyouyun.com/bee/ 查看cookie发现只有cookie-1。（cookie4是子域名下的） 
@@ -77,13 +77,13 @@ cookie2 是path导致的无法查看到? 将path修改后再次走一遍测试�
 ```
 cookie2.setPath("/");
 ```
-![cookie-path](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-6.png)
+![cookie-path](/assets/preimg/Web-Applications-Technologies/cookie-6.png)
 经过验证，cookies2未设置成功
 
 ### 测试四 跨域请求无法设置cookie
 以下请求是无法设置cookie的
 
-![cookie-cross-domain](http://tech.jiu-shu.com/Web-Applications-Technologies/cookie-7.png)
+![cookie-cross-domain](/assets/preimg/Web-Applications-Technologies/cookie-7.png)
 上面的请求cookie1 2 3 4 都无法设置成功。
 如果在浏览器直接访问http://api/diaoyouyun.com/bee/cookietest cookie1 和cookie4 可以添加成功
 ### 总结

@@ -7,7 +7,7 @@ description: 通过多个Nodejs Web App一步步来深入了解CORS每个细节�
 
 测试CORS代码库： [git@github.com:choelea/cors-tester.git](git@github.com:choelea/cors-tester.git)
 
-![cors](http://tech.jiu-shu.com/Web-Applications-Technologies/cors-font-request.png)
+![cors](/assets/preimg/Web-Applications-Technologies/cors-font-request.png)
 ## 什么是CORS
 解释这个概念之前先要认识下什么是 域(Origin)。
 ### 什么是Origin 
@@ -16,7 +16,7 @@ description: 通过多个Nodejs Web App一步步来深入了解CORS每个细节�
 >这个是一个标准，但不是所有浏览器的所有版本都严格执行了，特别是关于端口这点。
 
 通过下面的表可以更直观的认识到什么才是'**同一个域(同源)**'。(图标截自维基百科)
-![Same Origin Metric](http://tech.jiu-shu.com/Web-Applications-Technologies/same-origin-table.png)
+![Same Origin Metric](/assets/preimg/Web-Applications-Technologies/same-origin-table.png)
 
 ### CORS 定义
 Cross-origin resource sharing (CORS)； 跨域资源共享（CORS）是一种机制，这种机制在允许在网页中请求另一个域**受限制**的资源。
@@ -46,7 +46,7 @@ xhr.open('GET', 'http://corsdisableapi.jiu-shu.com/users');
 xhr.send();
 ```
 你会发现console报出了如下的错误; 很明显请求是收到**同源机制**的限制。
-![cors policy error](http://tech.jiu-shu.com/Web-Applications-Technologies/cors-policy-error.png)
+![cors policy error](/assets/preimg/Web-Applications-Technologies/cors-policy-error.png)
 
 打开页面http://corsweb.jiu-shu.com/public-resources.html 通过源代码和开发者工具理解这一节知识。
 ## 开启CORS
@@ -110,7 +110,7 @@ xhr.send();
 
 > 当开启Credentials的时候，为了安全考虑，浏览器要求Access-Control-Allow-Origin 必须制定值不能用`*`，否则会得到如下的错误
 
-![credentials restrict specific origin](http://tech.jiu-shu.com/Web-Applications-Technologies/credentials-restrict-specific-origin.png)
+![credentials restrict specific origin](/assets/preimg/Web-Applications-Technologies/credentials-restrict-specific-origin.png)
 
 ```
 var xhr = new XMLHttpRequest();

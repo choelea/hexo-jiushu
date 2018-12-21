@@ -27,7 +27,7 @@ description: 探索Spring Boot的实现原理
 > 暂时我们可以忽略掉spring-boot-starter-freemarker，这个只是引入了对freemarker的支持。
 
 打开Dependency Hierarchy可以看看spring-boot-starter-web帮我们引入了哪些jar。
-![Dependency Hierarchy](http://tech.jiu-shu.com/Spring-Boot-And-Spring-Cloud/Dependency-Hierarchy.jpg)
+![Dependency Hierarchy](/assets/preimg/Spring-Boot-And-Spring-Cloud/Dependency-Hierarchy.jpg)
 
 可以从上面看到引入了嵌入式的tomcat；在IDE里面去查询对应的jar文件，spring-boot-starter-* 的jar文件并没有任何的java代码，只是将相关依赖集合起来提供一站式服务。
 

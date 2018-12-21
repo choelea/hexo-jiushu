@@ -74,7 +74,7 @@ public interface ProductDocRespository extends ElasticsearchRepository<ProductDo
 参考`com.joe.springdataelasticsearch.listner.ContextRefreshedListener` 来查看索引测试文档数据。
 
 ## 测试数据
-![spring-data-elasticsearch-productdocs](http://tech.jiu-shu.com/Elastic-Technologies/spring-data-elasticsearch-productdocs.png)
+![spring-data-elasticsearch-productdocs](/assets/preimg/Elastic-Technologies/spring-data-elasticsearch-productdocs.png)
 
 ## 全文检索
 查询主要解决：

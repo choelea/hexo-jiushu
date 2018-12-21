@@ -120,16 +120,16 @@ app.post('/login',
 这里的flash error message来自passport strategy的callback。比如：`return done(null, false, { message: 'Invalid username or password' });` 
 > 设置`failureRedirect: '/session-demo'` 可以看看到对应的错误信息。
 
-![express-session-passport-failed](http://tech.jiu-shu.com/Nodejs-Technologies/session-json.jpg)
+![express-session-passport-failed](/assets/preimg/Nodejs-Technologies/session-json.jpg)
 
 输入正确用户名和密码：（joe/password）可以在session-demo的页面看到如下：
-![express-session-passport-success](http://tech.jiu-shu.com/Nodejs-Technologies/session-json1.jpg)
+![express-session-passport-success](/assets/preimg/Nodejs-Technologies/session-json1.jpg)
 
 ### connect-flash的作用
 又一个从express剥离的组件; 简单读取文档既可以了解到flash 的信息会保存在session中。 
 引入此依赖，同时需要在session相关的配置代码下面添加：`app.use(flash());`。 
 如果尝试将login失败重定向至session-demo页面，然后多次尝试输入错误的用户名和密码。将会在session-demo页面看到重复的类似如下的flash的error信息：
-![express-session-passport-duplicated-errros](http://tech.jiu-shu.com/Nodejs-Technologies/login-error.jpg)
+![express-session-passport-duplicated-errros](/assets/preimg/Nodejs-Technologies/login-error.jpg)
 > 这些信息是保存在session中，又没有被消费掉；**必须被消费掉，否则会挤爆内存**，如何消费？看下面说明
 
 ### 登录错误显示

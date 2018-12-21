@@ -15,11 +15,11 @@ Dubbo 是国内阿里系的一个开源框架，提供基于RPC的微服务的�
 https://github.com/choelea/dubboot-example
 
 ## 架构图
-![](http://tech.jiu-shu.com/Micro-Services/duboo.png)
+![](/assets/preimg/Micro-Services/duboo.png)
 分两个服务提供方：product和promotion，一个消费方web demo。web对外提供restful的服务，内部采用rpc协议。
-> 这里product服务的模型利用了[MongoDB vs Mysql 测试](http://tech.jiu-shu.com/Database-Technologies/Mongodb-vs-Mysql-basic) 的模型,代码和数据库。
+> 这里product服务的模型利用了[MongoDB vs Mysql 测试](/assets/preimg/Database-Technologies/Mongodb-vs-Mysql-basic) 的模型,代码和数据库。
 ## 项目结构介绍
-![Dubbo-Spring-Boot-Maven](http://tech.jiu-shu.com/Micro-Services/duboo-projects.png)
+![Dubbo-Spring-Boot-Maven](/assets/preimg/Micro-Services/duboo-projects.png)
 ## 服务注册
 注册采用推荐的zookeeper，具体安装不在这里赘述。
 服务注册和监控这里没有详细介绍，需要根据实际情况修改以下配置：

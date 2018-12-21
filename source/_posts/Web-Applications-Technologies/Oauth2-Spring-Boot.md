@@ -12,7 +12,7 @@ https://github.com/spring-guides/tut-spring-boot-oauth2
 
 ### 流程图
 从RFC文档复制过来的流程图， 来辅助我们理解oauth2 的Authorization Code Grant
-![Authorization Code Grant](http://tech.jiu-shu.com/Web-Applications-Technologies/oauth2-flow.jpg)
+![Authorization Code Grant](/assets/preimg/Web-Applications-Technologies/oauth2-flow.jpg)
 
 ### 探究竟
 clone代码，将maven的工程（tut-spring-boot-oauth2\simple）导入eclipse跑起来。 
@@ -37,7 +37,7 @@ public class SocialApplication {
 由于引入了`spring-boot-starter-security` 默认情况下，所有的请求都需求登录。
 Chrome打开http://localhost:8080， 并打开开发者工具，选中'Preserve log'; 浏览器将自动重定向到/login; 由于oauth2 client的引入，请求又再次被重定向至facebook进行授权；开始了授权的流程。
 > 在chrome的开发者工具中Network 标签， 按住CTRL/CMD 选中Doc和Other可以过滤掉大部分静态资源请求，方便我们来分析整个流程
-![oauth2-requests](http://tech.jiu-shu.com/Web-Applications-Technologies/oauth2-requests.png)
+![oauth2-requests](/assets/preimg/Web-Applications-Technologies/oauth2-requests.png)
 ### 角色解释
 官方解释请参考：[Oauth2 Roles](https://tools.ietf.org/html/rfc6749#page-6)
 **在我们这个示例中：**

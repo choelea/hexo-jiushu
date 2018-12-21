@@ -26,5 +26,5 @@ description: 通过Metricbeat 来统计并展示系统的信息 cpu， 内存等
 
 登录kibana打开对应的dashboard 既可以看到统计报告了
 
-![Kibana 中 展示系统运行状态](http://tech.jiu-shu.com/Elastic-Technologies/kibana-statics.png)
+![Kibana 中 展示系统运行状态](/assets/preimg/Elastic-Technologies/kibana-statics.png)
 

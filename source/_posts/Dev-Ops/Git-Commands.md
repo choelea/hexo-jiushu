@@ -170,7 +170,7 @@ git push -u remote-name branch-name // 示例: git push -u origin master;  The -
 git remote -v // list the names of all the remote repositories
 ```
 关联远程repo之前需要先在git服务器上创建对应的repo，如果采用的是github，在创建repository后，会有如下的提示：
-![Git-Push-Remote](http://tech.jiu-shu.com/Dev-Ops/git-push-remove.png)
+![Git-Push-Remote](/assets/preimg/Dev-Ops/git-push-remove.png)
 
 
 ```
@@ -196,7 +196,7 @@ git rebase // 将未push的commits 放至remote所有commits之上
 git rebase -i // 列出所有未push的commit，注意是倒序
 ```
 根据提示编辑来达到squash的作用。
-![git-rebase](http://tech.jiu-shu.com/Dev-Ops/git-rebase.png)
+![git-rebase](/assets/preimg/Dev-Ops/git-rebase.png)
 将第二个commit（435d22b）修改为:`pick 435d22b ...` 即将这个commit压缩至上面的commit，并放弃当前的commit message。
 > 有些公司会很强调squash。 git估计本地多次提交防止丢失，所以git的commit有可能会很多；而svn的commit就意味着修改可以被其他用户拉取到， 所以svn的每一次commit都要保证系统可以运行，svn的commit会偏少。svn的代码更新时间取决于文件多少和大小；git的代码拉取时间取决于commit的多少。所以。。。是每次提交尽量合理依然很重要，squash/Ineractive Rebasing 很实用。
 

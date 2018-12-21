@@ -10,5 +10,5 @@ description: Mac Pro 上 配置 Shadowsocks NG
 
 上面链接去找下载地址，下载后是无需安装的，直接运行。
 通过server -> perference 来配置后即可。
-![shadowsocks-ng-server-config.png](http://tech.jiu-shu.com/It-Infrastructures/shadowsocks-ng-server-config.png)
+![shadowsocks-ng-server-config.png](/assets/preimg/It-Infrastructures/shadowsocks-ng-server-config.png)
 

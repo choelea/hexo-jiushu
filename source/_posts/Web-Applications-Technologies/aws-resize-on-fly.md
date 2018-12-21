@@ -7,7 +7,7 @@ description: AWS 亚马逊云解决方案 - 动态压缩图片
 
 # 动态根据请求的尺寸生成图片
 ## 方案
-![动态压缩图片](http://tech.jiu-shu.com/Web-Applications-Technologies/aws-resize-on-fly-architech.jpg)
+![动态压缩图片](/assets/preimg/Web-Applications-Technologies/aws-resize-on-fly-architech.jpg)
 
 **流程如下**
 1. 用户向S3的桶（静态网站）发起resize的资源请求，桶设置了对应rule将不存在对应尺寸的资源重定向至OKCHEM-S3 (nodejs APP)
@@ -77,7 +77,7 @@ module.exports = router;
 这里如果要修改域名, 比如把https://example.auth.us-east-1.amazoncognito.com 改成 https://auth.example.com, 就必须使用 类似  [Domain masking](https://en.wikipedia.org/wiki/Domain_masking) 这种手段， 好在Godaddy 这个域名提供商有个更简洁的方案：参考视频: [Godaddy Forwarding and Masking A Domain Name Tutorial](https://www.youtube.com/watch?v=Cfk_clv1_nY)
 
 # AWS 资源文档集合
-[AWS Serverless Authentication](http://tech.jiu-shu.com/Web-Applications-Technologies/aws-serverless-authentication.pdf)
+[AWS Serverless Authentication](/assets/preimg/Web-Applications-Technologies/aws-serverless-authentication.pdf)
 
 [AWS Cognito Developer Document](https://aws.amazon.com/cn/documentation/cognito/)
 

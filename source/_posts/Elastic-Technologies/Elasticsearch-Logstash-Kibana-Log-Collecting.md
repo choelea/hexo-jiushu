@@ -14,7 +14,7 @@ ELK实时日志分析平台 初次尝试。 ELK 的多种架构请参考文章: 
 * filebeat 1.2.3
 查看version command： `filebeat --version`
 ## 系统架构图
-![elk](http://tech.jiu-shu.com/Elastic-Technologies/elk.png)
+![elk](/assets/preimg/Elastic-Technologies/elk.png)
 ## 软件的安装
 采用yum的安装模式。首先需要添加对应的repo文件。 对应的详细的安装方法可以参考在线文档， 这里以logstash为例。
 ### logstash 安装

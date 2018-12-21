@@ -35,7 +35,7 @@ https://developers.facebook.com/docs/sharing/best-practices
 > 分享facebook的时候有可能预览的图片不能及显示，方案可以参考: https://developers.facebook.com/docs/sharing/best-practices#precaching
 
 Linked in 的分享说明参考：https://developer.linkedin.com/docs/share-on-linkedin# 注意最后提到的缓存。
-![Linkedin Share](http://tech.jiu-shu.com/Web-Applications-Technologies/linkedin-share-cache.png)
+![Linkedin Share](/assets/preimg/Web-Applications-Technologies/linkedin-share-cache.png)
 
 Twitter的工具参考：https://cards-dev.twitter.com/validator
 

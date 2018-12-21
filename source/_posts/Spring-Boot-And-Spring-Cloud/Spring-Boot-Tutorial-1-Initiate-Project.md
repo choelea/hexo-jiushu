@@ -14,7 +14,7 @@ Spring Boot支持多种方式来创建一个项目：
 ## 创建Spring Boot项目：
 这里简单在线生成一个项目; 直接访问https://start.spring.io/，填写Group和Artifact，添加Web和 Freemarker两个依赖项。
 
-![spring-initiator](http://tech.jiu-shu.com/Spring-Boot-And-Spring-Cloud/spring-initiator.jpg)
+![spring-initiator](/assets/preimg/Spring-Boot-And-Spring-Cloud/spring-initiator.jpg)
 
 > Spring Boot 支持的可以替换JSP的，view engine包括： Thymeleaf, Groovy Markup Templates, Freemarker, Velocity. (As of Spring Framework 4.3, Velocity support has been deprecated due to six years without active maintenance of the Apache Velocity project. ) 除了Velocity 以外，其他根据个人爱好自助选择。
 
@@ -34,7 +34,7 @@ public class HomePageController {
 采用开源bootstrap的H5 模板：[awesome template](http://www.templatemo.com/preview/templatemo_450_awesome)
 默认页面文件需要添加至/src/main/resources/templates 下面；静态资源文件的位置在/src/main/resources/static (或者/src/main/resources/public)下面。
 目录结构如下：
-![structure](http://tech.jiu-shu.com/Spring-Boot-And-Spring-Cloud/QQ截图20180418170909.jpg)
+![structure](/assets/preimg/Spring-Boot-And-Spring-Cloud/QQ截图20180418170909.jpg)
 
 ## 运行测试
 运行SpringBootApplication主程序；访问http://localhost:8080验证。 截止目前，没有任何定制的情况下，我们可以看到Awesome 的模板页面。
