@@ -1,7 +1,7 @@
 ---
 title: 使用ELK来做日志归总
 description:  阐述使用ELK来做日志归总
----
+...
 
 # ELK 初探
 ELK实时日志分析平台 初次尝试。 ELK 的多种架构请参考文章: [漫谈ELK在大数据运维中的应用](https://blog.csdn.net/lively1982/article/details/50678657)

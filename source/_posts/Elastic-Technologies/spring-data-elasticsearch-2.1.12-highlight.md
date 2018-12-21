@@ -2,7 +2,7 @@
 title:  文档的title，页面及列表都会展示
 description: 描述这个页面的信息
 showOnHome: false
----
+...
 
 这个是一个模板, 请务必将showOnHome 修改为true
 

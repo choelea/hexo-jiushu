@@ -1,7 +1,7 @@
 ---
 title: Mongodb 和 Mysql 的性能测试
 description: 基于Windows 7上来测试Mongodb和Mysql在一对多的场景下的性能
----
+...
 尝试测试Mongodb 和 Mysql的性能，测试/数据导入代码：[github: mongo-vs-mysql](https://github.com/choelea/mongo-vs-mysql)
 > 性能比较很复杂，不能简单就说谁的性能高，谁的低。要基于场景，基于并发请求数量来谈，同时也要知道如何调优，本文只是初探，在没有任何调优的基础上，在本地windows 7上进行测试。
 # 版本及环境

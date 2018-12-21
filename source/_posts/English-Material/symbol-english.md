@@ -1,0 +1,117 @@
+---
+title: 符号英语
+description: 键盘上的各种输入符号的英语表达
+--- 
+# 符号英语表达汇总
+ - ` back quote 反引号
+ - ~ tilde
+ - ! exclaim
+ - @ at
+ - \# number sign,英语国家是hash，美语是pound,音乐里作- -      sharp,如C#
+ - $ dollar
+ - % percent
+ - ^ caret
+ - & ampersand
+ - \* asterisk, star(美语),数学公式中作multiply
+ - ( parenleft,opening parentheses
+ - ) parenright,closing paretheses
+ - minus; hyphen连字符,不读
+ - _ underscore
+ - \+ plus
+ - = equal
+ - [ bracketleft,opening bracket
+ - ] bracketright,closing bracket
+ - { bracelet
+ - } brace right
+ - ; semicolon
+ - : colon
+ - ' quote
+ - " double quote
+ - / slash
+ - \ backslash 反斜杠
+ - | bar
+ - , comma
+ - < less
+ - \> greater
+ - . period
+ - ? question
+ - space 空格
+
+## 下面是一些特殊符号的英文读法,
+#### 主要是数学符号
+
+ - ＜ is less than
+ - ＞ is more than
+ - ≮ is not less than 
+ - ≯ is not more than
+ - ≤ is less than or equal to 小于或等于号 
+ - - hyphen 连字符 
+ - ≥ is more than or equal to 大于或等于号 
+ - ' apostrophe 省略号,英文中省略字符用的撇号;所有格符号
+ - ％ percent 
+ - － dash 破折号 
+ - ‰ per mille
+ - ∞ infinity 无限大号 
+ - ∝ varies as 与…成比例 
+ - ( ) parentheses 圆括号 
+ - √ (square) root 平方根 
+ - [ ] square brackets 方括号 
+ - ∵ since; because 因为 
+ - 《 》 French quotes 法文引号;书名号 
+ - ∴ hence 所以 
+ - … ellipsis 省略号 
+ - ∷ equals, as (proportion) 等于，成比例 
+ - ¨ tandem colon 双点号
+ - ∠ angle 角 
+ - ∶ ditto 双点号
+ - ⌒ semicircle 半圆 
+ - ‖ parallel 双线号 
+ - ⊙ circle 圆 
+ - ／ virgule 斜线号 
+ - ○ circumference 圆周
+ - ～ swung dash 代字号 
+ - △ triangle 三角形 
+ - § section; division 分节号 
+ - ⊥ perpendicular to 垂直于 
+ - → arrow 箭号；参见号 
+ - ∪ union of 并，合集
+ - ∩ intersection of 交，通集 
+ - ∫ the integral of …的积分 
+ - ± plus or minus 正负号 
+ - ∑ summation of 总和 
+ - × is multiplied by 乘号 
+ - ° degree 度 
+ - ÷ is divided by 除号 
+ - ′ minute 分
+ - ″ second 秒 
+ - ≠ is not equal to 不等于号 
+ - ≡ is equivalent to 全等于号 
+ - ℃ Celsius degree 摄氏度 
+ - ≌ is equal to or approximately equal to 等于或约等于号
+ 
+#### 再附送希腊字母的读法
+
+ - α　Α　alpha ['&aelig;lfa] 
+ - β　Β　beta ['bi:ta / 'beita] 
+ - γ　Γ　gamma ['g&aelig;ma]　 
+ - δ　Δ　delta ['delta] 
+ - ε　Ε　epsilon ['epsilan / ep'sailan] 
+ - ζ　Ζ　zeta ['zi:ta] 
+ - η　Η　eta ['i:ta / 'eita] 
+ - θ　Θ　theta ['θita] 
+ - ι　Ι　iota [ai'outa] 
+ - κ　Κ　kappa ['k&aelig;pa] 
+ - λ　Λ　lamda ['l&aelig;mda] 
+ - μ　Μ　mu [mju:] 
+ - ν　Ν　nu [nju:] 
+ - ξ　Ξ　xi [ksai / gzai / zai] 
+ - ο　Ο　omicron [ou'maikran] 
+ - π　Π　pi [pai] 
+ - ρ　Ρ　rho [rou] 
+ - σ　Σ　sigma ['sigma] 
+ - τ　Τ　tau [tau] 
+ - υ　Υ　upsilon ['ju:psilon / ju:p'sailan]　o 是反 c 。 
+ - φ　Φ　phi [fai] 
+ - χ　Χ　chi [kai] 
+ - ψ　Ψ　psi [psi:] 
+ - ω　Ω　omega ['oumiga / ou'mi:ga]

@@ -1,8 +1,9 @@
 ---
 title: Shell 脚本学习笔记
 description: Shell 学习笔记
----
+...
 
+## 杂记
 ### 括号的使用说明
 参考：[Double parenthesis with and without dollar](http://stackoverflow.com/questions/31255699/double-parenthesis-with-and-without-dollar)
 
@@ -67,3 +68,6 @@ for filename in /home/okchem/mysqlbackup/*.sql; do
 	done <"${filename}.sql"
 done
 ```
+## 参考网站
+https://www.shellscript.sh/
+https://www.shellscript.sh/quickref.html

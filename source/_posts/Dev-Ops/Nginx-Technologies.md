@@ -1,7 +1,7 @@
 ---
 title: Nginx 问题收集
 description: Nginx 使用问题收集
----
+...
 
 收集在使用Nginx过程中遇见的问题。
 
@@ -61,3 +61,7 @@ This should ideally solve the issue, can you try and verify once  :-
 `chcon -R -u system_u -t httpd_sys_content_t /data/`
 
 相信ftp等服务，如果更改了根目录，也会有同样的问题。需要更深入的对SELinux学习。
+
+#### (13: Permission denied) while connecting to upstream:[nginx]
+
+https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx

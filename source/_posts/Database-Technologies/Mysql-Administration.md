@@ -1,7 +1,7 @@
 ---
 title: Mysql 运维相关脚本收集
 description: Mysql 运维相关脚本收集
----
+...
 mysql 版本： 5.6
 
 # 建库及用户
