@@ -1,7 +1,7 @@
 ---
 title:  Google Analytics 知识点汇总
 description: 汇总在使用GA中常用的知识点
-...
+---
 
 # 使用GA来分析网站的数据
 

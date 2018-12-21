@@ -1,7 +1,7 @@
 ---
 title:  利用sharp来resize 图片
 description: 利用sharp来resize 图片
-...
+---
 
 # 安装
 参考： http://sharp.pixelplumbing.com/en/stable/install/

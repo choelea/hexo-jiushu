@@ -1,7 +1,7 @@
 ---
 title:  Spring Data Elasticsearch 快速上手全文检索
 description: 通过Spring Data Elasticsearch 实现全文检索; 通过指定 boost 来控制查询语句的相对的权重; 通过自定义ResultMapper 来实现查询聚合功能
-...
+---
 通过Spring Data Elasticsearch 实现全文检索; 通过指定 boost 来控制查询语句的相对的权重; 通过自定义ResultMapper 来实现查询聚合功能。
 
 ## Elasticsearch 基础知识

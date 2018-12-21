@@ -1,7 +1,7 @@
 ---
 title:  如何在Linux上安装Node.js
 description: 如何在Linux上安装Node.js
-...
+---
 
 转自： [https://blog.csdn.net/wh211212/article/details/53039286](https://blog.csdn.net/wh211212/article/details/53039286)
 

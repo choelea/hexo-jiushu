@@ -1,7 +1,7 @@
 ---
 title:  使用Hexo 来建立个人网站
 description: 使用Hexo来搭建个人网站；Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
-...
+---
 
 使用说明参考: https://hexo.io/zh-cn/docs/
 

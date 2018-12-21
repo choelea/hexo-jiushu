@@ -1,7 +1,7 @@
 ---
 title:  Nodejs oauth2 结合 Spring Boot Oauth2 自建 Oauth2 Provider 
 description: Nodejs oauth2 结合 Spring Boot Oauth2 自建 Oauth2 Provider 
-...
+---
 
 
 # 参考文档

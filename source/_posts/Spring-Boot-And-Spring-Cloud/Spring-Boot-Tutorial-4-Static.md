@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 开发web 应用 - 04 静态资源
 description: Spring Boot 对静态资源文件的的处理方式
-...
+---
 
 Spring Boot 对静态资源文件的的处理方式。
 在[Spring Boot: 开发web 应用 - 01 创建项目](http://blog.csdn.net/choelea/article/details/73136194) 中引入的H5 的模板，对应的资源文件（css,js,images 等）放入/src/main/resources/static 下面即可直接引用到`<link rel="stylesheet" href="/css/animate.min.css">`。接下来看看Spring Boot 是怎么服务静态资源的。

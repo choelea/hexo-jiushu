@@ -1,7 +1,7 @@
 ---
 title:  个人PPT汇总
 description: 汇总个人PPT
-...
+---
 
 
 # OKCHEM2.0 平台系列

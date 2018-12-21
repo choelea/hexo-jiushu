@@ -1,7 +1,7 @@
 ---
 title: Shell 脚本学习笔记
 description: Shell 学习笔记
-...
+---
 
 ## 杂记
 ### 括号的使用说明

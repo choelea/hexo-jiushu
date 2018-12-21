@@ -1,7 +1,7 @@
 ---
 title:  资源收集
 description: 收集相关资源
-...
+---
 
 ### 网站收集
 1. 国家旗帜图标：https://countryflags.io/

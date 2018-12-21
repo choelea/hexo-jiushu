@@ -1,7 +1,7 @@
 ---
 title:  Nodejs 使用 JWT和express-http-proxy 来实现简易APIGateway
 description: 构建基于jwt的apigateway; 实现资源访问的控制。 利用express-http-proxy来自动proxy到内部资源服务。 (内部资源服务没有任何的访问限制，不能直接暴露给外部APP访问) 这里的用户资源也来源于内部资源服务。
-...
+---
 # 简介
 代码：  https://github.com/choelea/tokenbased-api-gateway
 

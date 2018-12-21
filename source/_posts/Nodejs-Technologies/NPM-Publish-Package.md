@@ -1,7 +1,7 @@
 ---
 title: 向NPM仓库发布自己的Package
 description: 阐述如何使用npm发布自己的Package
-...
+---
 
 阐述如何使用npm发布自己的Package
 

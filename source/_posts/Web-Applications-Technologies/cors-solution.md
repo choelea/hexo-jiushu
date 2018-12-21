@@ -1,7 +1,7 @@
 ---
 title:  搞定跨域资源共享 (CORS)
 description: 通过多个Nodejs Web App一步步来深入了解CORS每个细节，每步都通过实际的验证；最终给出Nodejs Express Web和Java Spring Web的代码示例。
-...
+---
 
 通过多个Nodejs Web App一步步来深入了解CORS每个细节，每步都通过实际的验证；最终给出Nodejs Express Web和Java Spring Web的代码示例。
 

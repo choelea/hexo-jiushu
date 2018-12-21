@@ -1,7 +1,7 @@
 ---
 title:  关于Java 正则表达式的介绍
 description: 我们将讨论Java Regex API以及如何在Java编程语言中使用正则表达式。
-...
+---
 
 
 在本文中，我们将讨论Java Regex API以及如何在Java编程语言中使用正则表达式。 在正则表达式的世界中，有许多不同的风格可供选择，例如grep，Perl，Python，PHP，awk等等。 这意味着在一种编程语言中工作的正则表达式可能在另一种编程语言中不起作用。 Java中的正则表达式语法与Perl中的语法最相似。
