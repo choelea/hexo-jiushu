@@ -1,6 +1,9 @@
 ---
 title:  MongoDB 命令 常用语句
 description: Mongodb常用命令
+categories: 数据库
+tags:
+  - 随笔
 ---
 
 mongodb 常用命令收集
@@ -29,4 +32,11 @@ db.集合名称.update({}, {$rename:{"旧键名称":"新键名称"}}, false, tru
 * 第一个false表示：可选，这个参数的意思是，如果不存在update的记录，true为插入新的记录，默认是false，不插入。 
 * 第二个true表示：可选，mongodb 默认是false,只更新找到的第一条记录，如果这个参数为true,就把按条件查出来多条记录全部更新。
  
+## 备份及恢复
+**备份**
+```
+mongodump -h localhost:27017 -d alibaba -u okchem -p okchem -o /data/backup/mongodump-2018-12-24
+```
+
+**恢复**
 
