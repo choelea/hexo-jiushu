@@ -131,3 +131,8 @@ deploy:
   repo: git@github.com:choelea/choelea.github.io
   branch: master
   message: 
+
+admin:
+  username: admin
+  password_hash: $2a$10$VG5mGptD04B8NVpGNc7V0e11w.3eORFPc8W0iD0S2/K2t4NTy2baW
+  secret: jiu-shu.com
