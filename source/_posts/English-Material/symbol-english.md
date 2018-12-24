@@ -1,7 +1,7 @@
 ---
 title: 符号英语
 description: 键盘上的各种输入符号的英语表达
---- 
+---
 # 符号英语表达汇总
  - ` back quote 反引号
  - ~ tilde
