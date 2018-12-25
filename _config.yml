@@ -89,7 +89,7 @@ nav_menu:
 announcement: '感谢留下评论和指出错误的朋友!'
 
 # 友链的写法示例
-#links:
+# links:
 #- name: xaoxuu's blog
 #  avatar: http://it.jiu-shu.com/assets/img/avatar.jpg
 #  url: http://it.jiu-shu.com/blog
@@ -118,7 +118,7 @@ valine:
   enable: true # 如果你想用Valine评论系统，请设置enable为true
   app_id: HnFN3camhSX52IMir3lqT3hM-gzGzoHsz
   app_key: vJsgB1TGKlmniiQsWp51HJaJ
-  guest_info: nick,mail,link #valine comment header info
+  guest_info: nick,mail,link # valine comment header info
   placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
   avatar: mp # gravatar style https://valine.js.org/avatar
   pageSize: 10 # comment list page size

@@ -1,6 +1,6 @@
----
 title: 符号英语
 description: 键盘上的各种输入符号的英语表达
+date: 2018-12-25 11:30:13
 ---
 # 符号英语表达汇总
  - ` back quote 反引号
@@ -115,3 +115,7 @@ description: 键盘上的各种输入符号的英语表达
  - χ　Χ　chi [kai] 
  - ψ　Ψ　psi [psi:] 
  - ω　Ω　omega ['oumiga / ou'mi:ga]
+ 
+ 
+ 
+ Test
