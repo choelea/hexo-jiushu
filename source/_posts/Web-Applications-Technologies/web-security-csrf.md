@@ -8,7 +8,7 @@ categories:
 date: 2018-12-12 20:54:00
 ---
 
-前面的章节[搞定跨域资源共享CORS](http://localhost:4000/assets/preimg/Web-Applications-Technologies/cors-solution)中我们提到了浏览器的同源的安全策略，就算允许跨域，也可以限制被允许的域；比如只限制同一个父域下面的子域名来访问资源。 为什么在这样的策略下面，我们依然需要应对CSRF（Cross Site Request Forgery，跨站请求伪造）？
+前面的章节[搞定跨域资源共享CORS](/assets/preimg/Web-Applications-Technologies/cors-solution)中我们提到了浏览器的同源的安全策略，就算允许跨域，也可以限制被允许的域；比如只限制同一个父域下面的子域名来访问资源。 为什么在这样的策略下面，我们依然需要应对CSRF（Cross Site Request Forgery，跨站请求伪造）？
 
 **通过下面的两张图来快速理解CSRF的存在。**
 

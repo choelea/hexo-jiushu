@@ -2,6 +2,9 @@
     <% if (theme.widgets.author.enable){ %>
         <%- partial('../_widget/author') %>
     <% } %>
+    <% if (theme.widgets.toc.enable){ %>
+        <%- partial('../_widget/toc') %>
+    <% } %>
     <% if (theme.widgets.categories.enable){ %>
         <%- partial('../_widget/announcement') %>
     <% } %>
@@ -10,9 +13,6 @@
     <% } %>
     <% if (theme.widgets.tagcloud.enable){ %>
         <%- partial('../_widget/tagcloud') %>
-    <% } %>
-    <% if (theme.widgets.toc.enable){ %>
-        <%- partial('../_widget/toc') %>
     <% } %>
     <% if (theme.widgets.music.enable){ %>
         <%- partial('../_widget/music') %>
