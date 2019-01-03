@@ -1,6 +1,10 @@
----
 title: Nodejs 利用passport完成本地认证 示例
 description: 阐述Nodejs + express + passport 完成用户回话的管理
+tags:
+  - passport
+categories:
+  - Nodejs技术
+date: 2018-01-05 20:36:00
 ---
 
 本文只涉及web相关，即浏览器作为客户端。一步一步理解认证过程，同时熟悉express-session,passport, connect-flash 各自的职责。示例并没有引入mongodb, 方便更直接的理解认证过程。（In-Memory Authentication Example）

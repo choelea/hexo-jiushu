@@ -1,6 +1,11 @@
----
-title:  如何在Linux上安装Node.js
+title: 如何在Linux上安装Node.js
 description: 如何在Linux上安装Node.js
+tags:
+  - nodejs
+  - npm
+categories:
+  - Devops
+date: 2018-02-07 20:36:00
 ---
 
 转自： [https://blog.csdn.net/wh211212/article/details/53039286](https://blog.csdn.net/wh211212/article/details/53039286)

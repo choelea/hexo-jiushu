@@ -1,6 +1,10 @@
----
-title:  Java并发编程的艺术 -02 Java并发机制的底层实现原理
+title: Java并发编程的艺术 -02 Java并发机制的底层实现原理
 description: Java并发机制的底层实现原理
+tags:
+  - 并发
+categories:
+  - Java知识
+date: 2018-06-13 20:36:00
 ---
 
 读Java 并发编程的艺术第二章 - Java并发机制的底层实现原理

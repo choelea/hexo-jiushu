@@ -1,6 +1,10 @@
----
 title: Kibana 5.x 加强安全 - x-pack篇
 description: 使用插件x-pack来加强Kibana 5.x 的访问控制
+tags:
+  - kibana
+categories:
+  - Elastic技术栈
+date: 2018-03-06 20:36:00
 ---
  此文之前，假定读者已经一次完成了Kibana和elasticsearch的安装。参考官方文档，安装后默认配置已经可以连通kibana和es。 
  

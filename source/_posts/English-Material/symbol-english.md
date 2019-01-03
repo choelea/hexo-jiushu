@@ -1,6 +1,8 @@
 title: 符号英语
 description: 键盘上的各种输入符号的英语表达
-date: 2018-12-25 11:30:13
+tags: []
+categories: []
+date: 2017-12-25 11:30:00
 ---
 # 符号英语表达汇总
  - ` back quote 反引号

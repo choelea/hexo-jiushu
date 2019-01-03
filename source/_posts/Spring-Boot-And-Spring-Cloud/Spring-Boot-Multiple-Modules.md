@@ -1,6 +1,11 @@
----
 title: 使用Spring Boot构建多个moudle的web应用
 description: 使用Spring Boot构建多个moudle的web应用
+tags:
+  - spring boot
+  - maven
+categories:
+  - Web技术
+date: 2017-10-08 20:36:00
 ---
 
 A example to use demostrate how to create multiple project using spring boot.

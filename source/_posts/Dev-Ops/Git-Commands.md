@@ -1,6 +1,10 @@
----
 title: Git 常用命令
 description: Git 常用的命令，使用命令，让效率更高
+tags:
+  - git
+categories:
+  - 工具
+date: 2018-05-08 20:36:00
 ---
 
 ## 帮助命令

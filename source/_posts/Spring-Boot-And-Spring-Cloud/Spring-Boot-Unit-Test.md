@@ -1,6 +1,12 @@
----
 title: Spring Boot 1.4 对Unit Test有更好的支持
-description:  Spring Boot 1.4 中 mock authentication 来测试带权限的接口; 使用jsonPath来做unit test 的 expectation
+description: >-
+  Spring Boot 1.4 中 mock authentication 来测试带权限的接口; 使用jsonPath来做unit test 的
+  expectation
+tags:
+  - Unit Test
+categories:
+  - Web技术
+date: 2017-10-07 20:36:00
 ---
 **Spring Boot 1.4 对Unit Test有更好的支持。**
 以下代码主要覆盖：

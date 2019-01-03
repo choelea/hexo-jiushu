@@ -1,6 +1,10 @@
----
 title: 网站SEO优化最佳实践
 description: 网站SEO优化最佳实践
+tags:
+  - SEO
+categories:
+  - Web技术
+date: 2018-01-03 20:36:00
 ---
 
 # 网站 SEO 实践及注意事项

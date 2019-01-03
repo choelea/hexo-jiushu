@@ -1,6 +1,11 @@
----
-title:  Spring Data Elasticsearch 快速上手全文检索 - 进阶
+title: Spring Data Elasticsearch 快速上手全文检索 - 进阶
 description: 通过Spring Data Elasticsearch 实现全文检索并高亮关键词。
+tags:
+  - elasticsearch
+  - spring data
+categories:
+  - Elastic技术栈
+date: 2018-12-23 20:36:00
 ---
 
 继上一篇 [Spring Data Elasticsearch 快速上手全文检索](/assets/preimg/Elastic-Technologies/spring-data-elasticsearch-quick-start)之后，进一步深入以下内容：

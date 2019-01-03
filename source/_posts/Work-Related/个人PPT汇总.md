@@ -1,6 +1,10 @@
----
-title:  个人PPT汇总
+title: 个人PPT汇总
 description: 汇总个人PPT
+tags:
+  - ppt
+categories:
+  - 其他
+date: 2018-02-13 20:36:00
 ---
 
 

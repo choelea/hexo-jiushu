@@ -1,6 +1,14 @@
----
-title:  搞定跨域资源共享 (CORS)
-description: 通过多个Nodejs Web App一步步来深入了解CORS每个细节，每步都通过实际的验证；最终给出Nodejs Express Web和Java Spring Web的代码示例。
+title: 搞定跨域资源共享 (CORS)
+description: >-
+  通过多个Nodejs Web App一步步来深入了解CORS每个细节，每步都通过实际的验证；最终给出Nodejs Express Web和Java
+  Spring Web的代码示例。
+tags:
+  - cors
+  - web security
+  - 网站安全
+categories:
+  - Web技术
+date: 2018-10-03 20:36:00
 ---
 
 通过多个Nodejs Web App一步步来深入了解CORS每个细节，每步都通过实际的验证；最终给出Nodejs Express Web和Java Spring Web的代码示例。

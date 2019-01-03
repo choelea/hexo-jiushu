@@ -1,6 +1,11 @@
 ---
 title: Spring Boot 开发web 应用 - 03 Spring Framework 回顾
 description: Spring Boot 开发web 应用 - 03 Spring Framework 回顾
+tags:
+  - spring boot
+categories:
+  - Web技术
+date: 2018-08-04 20:36:00
 ---
 ## 回顾Spring Framework
 

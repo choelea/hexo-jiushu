@@ -1,6 +1,10 @@
----
 title: Elasticsearch 2.X 自定义字段的Mapping
 description: Elasticsearch 2.X 自定义字段的Mapping
+tags:
+  - elasticsearch
+categories:
+  - Elastic技术栈
+date: 2018-01-18 20:36:00
 ---
 说到Mapping大家可能觉得有些不解，其实我大体上可以将Elasticsearch理解为一个RDBMS（关系型数据库，比如MySQL），那么index 就相当于数据库实例，type可以理解为表,这样mapping可以理解为表的结构和相关设置的信息（当然mapping有更大范围的意思）。
 

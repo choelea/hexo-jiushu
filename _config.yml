@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://it.jiu-shu.com
+url: http://localhost:4000
 root: /
 permalink: :title/
 permalink_defaults:
@@ -75,12 +75,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: material-x
 
-shortcut_icon: "http://it.jiu-shu.com/assets/img/favicon.ico"
-favicon: "http://it.jiu-shu.com/assets/img/favicon.ico"
+shortcut_icon: "http://localhost:4000/assets/img/favicon.ico"
+favicon: "http://localhost:4000/assets/img/favicon.ico"
 nav_menu:
   - name: 主页
     icon: fas fa-home
-    url: http://it.jiu-shu.com/
+    url: http://localhost:4000/
   - name: 归档
     icon: fas fa-archive
     url: archives/
@@ -91,8 +91,8 @@ announcement: '感谢留下评论和指出错误的朋友!'
 # 友链的写法示例
 # links:
 #- name: xaoxuu's blog
-#  avatar: http://it.jiu-shu.com/assets/img/avatar.jpg
-#  url: http://it.jiu-shu.com/blog
+#  avatar: http://localhost:4000/assets/img/avatar.jpg
+#  url: http://localhost:4000/blog
 
 # 页脚社交信息的写法示例
 social:
@@ -104,7 +104,7 @@ social:
     url: https://music.163.com/#/user/home?id=781987646
 
 # 博主信息的写法示例
-avatar: http://it.jiu-shu.com/assets/img/avatar.jpg
+avatar: http://localhost:4000/assets/img/avatar.jpg
 motto: 保持快乐 享受生活; 放下自我 换位思维。
 
 # 百度统计key

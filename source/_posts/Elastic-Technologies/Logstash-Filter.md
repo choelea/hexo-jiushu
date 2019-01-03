@@ -1,6 +1,11 @@
----
 title: Logstash Filter 配置
 description: Logstash Filter 配置
+tags:
+  - logstash
+  - ELK
+categories:
+  - Elastic技术栈
+date: 2018-02-03 20:36:00
 ---
 笔者这里仅仅列出配置文件，在研究之后最红并没有采用在logstash的接下日志为json的做法。而是将json的输出放在了各个服务/应用中处理， spring boot的app可以参考：[logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
 ```

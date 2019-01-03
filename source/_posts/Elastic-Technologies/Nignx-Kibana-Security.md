@@ -1,6 +1,10 @@
----
 title: kibana的访问控制 - Nginx 反向代理 - 免费
 description: 通过Nginx的反向代理来加强kibana的访问安全
+tags:
+  - kibana
+categories:
+  - Elastic技术栈
+date: 2018-01-05 20:36:00
 ---
 前一篇[ Kibana 5.x 加强安全](http://blog.csdn.net/choelea/article/details/53841218) 采用的是官方的x-pack 插件来实现elastic技术栈的相关产品的权限控制。功能不错，也提供了很大的灵活性，不过x-pack并非免费产品；咨询了下licence价格，大概三个节点年费六千多美刀。。。废话不多说了，想想替代方案 - Nginx 反向代理 （收回5601端口，通过nginx反向代理+basic authentication来保证安全）
 

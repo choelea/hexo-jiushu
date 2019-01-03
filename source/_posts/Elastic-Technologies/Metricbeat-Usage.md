@@ -1,6 +1,10 @@
----
 title: Metricbeat 的使用
 description: 通过Metricbeat 来统计并展示系统的信息 cpu， 内存等
+tags:
+  - Matricbeat
+categories:
+  - Elastic技术栈
+date: 2018-01-23 20:36:00
 ---
 ### 目标
 统计并展示系统的信息 cpu， 内存等 (当然metricbeat能收集的信息种类还很多)

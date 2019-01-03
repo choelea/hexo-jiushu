@@ -1,6 +1,11 @@
----
 title: Dubbo + Spring Boot 实现微服务治理
 description: 通过Dubbo 结合 Spring Boot 探索微服务的治理
+tags:
+  - dubbo
+  - spring boot
+categories:
+  - 微服务
+date: 2018-02-23 20:36:00
 ---
 Dubbo 是国内阿里系的一个开源框架，提供基于RPC的微服务的治理框架。本文主要探索dubbo 和 spring boot 的结合, 采用https://github.com/dubbo/dubbo-spring-boot-project 来实现dubbo和spring boot的结合。（新的Spring Boot Start貌似还在研发中。）
 主要探索和实现如下几项：

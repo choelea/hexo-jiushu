@@ -1,6 +1,10 @@
----
-title:  Java 工具类收集
+title: Java 工具类收集
 description: Java 工具类收集
+tags:
+  - java
+categories:
+  - Java知识
+date: 2017-01-13 20:36:00
 ---
 
 ## URI 工具类

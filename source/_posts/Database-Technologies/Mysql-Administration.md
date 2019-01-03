@@ -1,6 +1,10 @@
----
 title: Mysql 运维相关脚本收集
 description: Mysql 运维相关脚本收集
+tags:
+  - mysql
+categories:
+  - 数据库
+date: 2017-05-03 20:36:00
 ---
 mysql 版本： 5.6
 

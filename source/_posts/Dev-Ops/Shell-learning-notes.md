@@ -1,6 +1,10 @@
----
 title: Shell 脚本学习笔记
 description: Shell 学习笔记
+tags:
+  - shell
+categories:
+  - Devops
+date: 2018-01-06 20:36:00
 ---
 
 ## 杂记

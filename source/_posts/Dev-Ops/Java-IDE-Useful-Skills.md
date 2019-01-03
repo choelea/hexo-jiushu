@@ -1,6 +1,10 @@
----
-title:  Java 开发工具使用技巧收集
+title: Java 开发工具使用技巧收集
 description: Java 开发工具使用技巧收集， 让开发效率更高一些
+tags:
+  - eclipse
+categories:
+  - 工具
+date: 2017-01-09 20:36:00
 ---
 
 

@@ -1,6 +1,12 @@
----
-title:  Elasticsearch 模糊匹配
-description: fuzzy 查询是一个词项级别的查询，所以它不做任何分析。它通过某个词项以及指定的 fuzziness 查找到词典中所有的词项。 fuzziness 默认设置为 AUTO 。
+title: Elasticsearch 模糊匹配
+description: >-
+  fuzzy 查询是一个词项级别的查询，所以它不做任何分析。它通过某个词项以及指定的 fuzziness 查找到词典中所有的词项。 fuzziness
+  默认设置为 AUTO 。
+tags:
+  - elasticsearch
+categories:
+  - Elastic技术栈
+date: 2018-12-03 20:36:00
 ---
 
 https://www.elastic.co/guide/cn/elasticsearch/guide/cn/fuzzy-scoring.html

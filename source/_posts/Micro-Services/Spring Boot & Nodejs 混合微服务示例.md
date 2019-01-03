@@ -1,6 +1,11 @@
----
 title: Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务
 description: Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务
+tags:
+  - spring cloud
+  - netflix
+categories:
+  - 微服务
+date: 2018-03-04 20:36:00
 ---
 ## Spring Cloud Netflix / Nodejs
 尝试使用Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务。 （示例并无任何业务意义，只为做演示）

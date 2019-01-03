@@ -1,6 +1,11 @@
----
-title: 利用Nexus搭建Maven私服 
+title: 利用Nexus搭建Maven私服
 description: 利用Nexus搭建Maven私服
+tags:
+  - maven
+categories:
+  - 工具
+  - ''
+date: 2018-03-16 20:36:00
 ---
 阐述如果利用Nexus来快速搭建maven仓库的私有服务器
 私服搭建

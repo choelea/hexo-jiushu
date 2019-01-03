@@ -1,6 +1,11 @@
----
 title: Spring Cloud 微服务解决方案
-description: Spring Cloud 实现微服务注册发现, 服务路由, 负载均衡, 分布式链路调用跟踪, 跨服务日志追踪, 服务监控
+description: 'Spring Cloud 实现微服务注册发现, 服务路由, 负载均衡, 分布式链路调用跟踪, 跨服务日志追踪, 服务监控'
+tags:
+  - 微服务
+  - spring cloud
+categories:
+  - 微服务
+date: 2018-02-13 20:36:00
 ---
 ## Spring Cloud Netflix / Nodejs
 尝试使用Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务。 （示例并无任何业务意义，只为做演示）

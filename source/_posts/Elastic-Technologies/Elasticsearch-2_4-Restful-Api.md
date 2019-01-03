@@ -1,6 +1,10 @@
----
-title:  Elastcisearch 2.4 Restful API 
+title: Elastcisearch 2.4 Restful API
 description: Elastcisearch 常用的 Restful API
+tags:
+  - elasticsearch
+categories:
+  - Elastic技术栈
+date: 2018-12-01 20:36:00
 ---
 
 # Elastcisearch

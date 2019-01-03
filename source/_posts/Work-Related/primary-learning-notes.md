@@ -1,6 +1,10 @@
----
-title:  PPT 初学笔记
+title: PPT 初学笔记
 description: PPT 初学笔记
+tags:
+  - PPT
+categories:
+  - 工具
+date: 2018-11-03 20:36:00
 ---
 
 

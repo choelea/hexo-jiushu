@@ -1,6 +1,11 @@
----
-title:  利用sharp来resize 图片
+title: 利用sharp来resize 图片
 description: 利用sharp来resize 图片
+tags:
+  - nodejs
+  - ''
+categories:
+  - Web技术
+date: 2018-01-23 20:36:00
 ---
 
 # 安装

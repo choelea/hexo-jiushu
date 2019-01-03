@@ -1,6 +1,10 @@
----
 title: Spring Boot 开发web 应用 - 02 探究竟
 description: 探索Spring Boot的实现原理
+tags:
+  - spring boot
+categories:
+  - Web技术
+date: 2018-08-04 20:36:00
 ---
 进一步去了解Spring Boot的实现原理
 # Look Under The Hood

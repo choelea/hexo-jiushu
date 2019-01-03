@@ -1,6 +1,11 @@
----
 title: 使用ELK来做日志归总
-description:  阐述使用ELK来做日志归总
+description: "\_阐述使用ELK来做日志归总"
+tags:
+  - ELK
+  - elasticsearch
+categories:
+  - Elastic技术栈
+date: 2018-02-06 20:36:00
 ---
 
 # ELK 初探

@@ -1,6 +1,10 @@
----
 title: Spring Boot 开发web 应用 - 04 静态资源
 description: Spring Boot 对静态资源文件的的处理方式
+tags:
+  - spring boot
+categories:
+  - Web技术
+date: 2017-08-04 21:36:00
 ---
 
 Spring Boot 对静态资源文件的的处理方式。

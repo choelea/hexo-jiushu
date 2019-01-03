@@ -1,6 +1,11 @@
----
-title:  关于Java 正则表达式的介绍
+title: 关于Java 正则表达式的介绍
 description: 我们将讨论Java Regex API以及如何在Java编程语言中使用正则表达式。
+tags:
+  - 正则表达式
+  - Java
+categories:
+  - Java知识
+date: 2018-12-08 20:36:00
 ---
 
 

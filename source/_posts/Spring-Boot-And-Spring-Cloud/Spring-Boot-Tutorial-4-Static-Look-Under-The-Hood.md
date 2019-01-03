@@ -1,6 +1,11 @@
 ---
 title: Spring Boot 开发web 应用 - 04 静态资源 深入探索
 description: 解读原代码进一步了解Spring Boot对静态资源文件的处理
+tags:
+  - spring boot
+categories:
+  - Web技术
+date: 2018-08-05 20:36:00
 ---
 解读原代码进一步了解Spring Boot对静态资源文件的处理。
 ## 参考文章

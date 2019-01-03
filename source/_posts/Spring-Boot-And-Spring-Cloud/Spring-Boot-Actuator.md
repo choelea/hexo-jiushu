@@ -1,8 +1,12 @@
----
 title: Spring Boot Actuator
 description: Spring Boot Actuator
+tags:
+  - spring boot actuator
+categories:
+  - Web技术
+date: 2016-01-13 20:36:00
 ---
-# 监控和管理 - Spring Boot Actuator
+# 监控和管理 - spring boot Actuator
 
 Spring Boot Actuator是spring boot的一个子集，提供的一些监控用的API。
 [官方文档](http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready)

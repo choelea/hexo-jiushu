@@ -1,6 +1,12 @@
----
 title: Centos 7 上利用pm2部署 nodejs 程序 - No Jenkins
 description: Centos 7 上利用pm2部署 nodejs 程序 - No Jenkins
+tags:
+  - nodejs
+  - pm2
+categories:
+  - Nodejs技术
+  - ''
+date: 2018-09-06 20:36:00
 ---
 本文探索如何利用pm2 来部署nodejs的程序到centos系统上。
 ## 参考资源

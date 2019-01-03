@@ -1,6 +1,13 @@
----
-title:  Spring Data Elasticsearch 快速上手全文检索
-description: 通过Spring Data Elasticsearch 实现全文检索; 通过指定 boost 来控制查询语句的相对的权重; 通过自定义ResultMapper 来实现查询聚合功能
+title: Spring Data Elasticsearch 快速上手全文检索
+description: >-
+  通过Spring Data Elasticsearch 实现全文检索; 通过指定 boost 来控制查询语句的相对的权重;
+  通过自定义ResultMapper 来实现查询聚合功能
+tags:
+  - elasticsearch
+  - Spring Data
+categories:
+  - Elastic技术栈
+date: 2018-12-19 20:36:00
 ---
 通过Spring Data Elasticsearch 实现全文检索; 通过指定 boost 来控制查询语句的相对的权重; 通过自定义ResultMapper 来实现查询聚合功能。
 
@@ -12,7 +19,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/removal-of-types
 
 官方的中文文档参考： [https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)
 ## 版本
- - Spring Boot： 1.4.7
+ - spring boot： 1.4.7
  - Spring Data Elasticsearch  2.0.11
  - Elasticsearch server 2.4
 

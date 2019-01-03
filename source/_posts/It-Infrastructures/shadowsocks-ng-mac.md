@@ -1,6 +1,10 @@
----
-title:  Mac Pro 上 配置 Shadowsocks NG
+title: Mac Pro 上 配置 Shadowsocks NG
 description: Mac Pro 上 配置 Shadowsocks NG
+tags:
+  - 工具
+categories:
+  - 工具
+date: 2018-06-08 20:36:00
 ---
 
 购买了shadowsocks 账号后，只需要下载Shadowsocks NG简单配置即可完成翻墙。

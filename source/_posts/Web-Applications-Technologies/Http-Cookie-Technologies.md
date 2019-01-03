@@ -1,6 +1,10 @@
----
 title: Http Cookie 探索
 description: 深入了解测试Http Cookie相关; Cookie的设置，domain path等的作用
+tags:
+  - cookie
+categories:
+  - Web技术
+date: 2017-10-03 20:36:00
 ---
 Meta 信息不见了
 

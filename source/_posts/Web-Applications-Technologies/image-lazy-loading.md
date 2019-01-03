@@ -1,6 +1,10 @@
----
-title:  页面图片懒加载机制
+title: 页面图片懒加载机制
 description: 页面图片请求太多，影响整个页面的相应速度，采用懒加载机制可以提速。本文采用bootstrap的转灯carousel做为示例
+tags:
+  - SEO
+  - lazy loading
+categories: []
+date: 2018-08-12 20:36:00
 ---
 
 页面图片请求太多，影响整个页面的相应速度，采用懒加载机制可以提速。本文采用bootstrap的转灯carousel做为示例

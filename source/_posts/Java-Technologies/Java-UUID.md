@@ -1,6 +1,11 @@
----
 title: Java 短ID 随机字符串
 description: Java 短ID 随机字符串
+tags:
+  - java
+  - ''
+categories:
+  - Java知识
+date: 2018-07-06 20:36:00
 ---
 使用apache common的lib 包。 用1000,0000 次测试，无重复字符串。
 

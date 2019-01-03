@@ -1,7 +1,11 @@
----
 title: Centos 常用命令
 sort: 1
 description: Centos 常用命令
+tags:
+  - centos
+categories:
+  - Devops
+date: 2018-01-03 20:36:00
 ---
 
 > 以下命令仅在centos7上验证过

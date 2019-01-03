@@ -1,10 +1,14 @@
----
-title:  AWS 亚马逊云解决方案 - 动态压缩图片
+title: AWS 亚马逊云解决方案 - 动态压缩图片
 description: AWS 亚马逊云解决方案 - 动态压缩图片
+tags:
+  - aws
+  - nodejs
+  - 图片尺寸
+  - resize
+categories:
+  - Web技术
+date: 2018-09-09 20:36:00
 ---
-
-
-
 # 动态根据请求的尺寸生成图片
 ## 方案
 ![动态压缩图片](/assets/preimg/Web-Applications-Technologies/aws-resize-on-fly-architech.jpg)

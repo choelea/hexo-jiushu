@@ -1,7 +1,7 @@
----
-title:  文档的title，页面及列表都会展示
+title: 文档的title，页面及列表都会展示
 description: 描述这个页面的信息
 showOnHome: false
+date: 2019-01-03 21:52:34
 ---
 
 这个是一个模板, 请务必将showOnHome 修改为true

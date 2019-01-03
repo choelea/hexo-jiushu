@@ -1,6 +1,11 @@
----
 title: Maven父子工程的搭建
 description: 总结通过maven创建父子工程的方式。
+tags:
+  - maven
+categories:
+  - Java知识
+  - ''
+date: 2018-03-13 20:36:00
 ---
 尝试dubbo+spring的同时，总结下通过maven创建父子工程的方法。（不考虑unit test）
 ## 版本

@@ -1,9 +1,11 @@
----
-title:  MongoDB 命令 常用语句
+title: MongoDB 命令 常用语句
 description: Mongodb常用命令
-categories: 数据库
+categories:
+  - 数据库
 tags:
-  - 随笔
+  - mongo
+  - ''
+date: 2018-02-12 20:36:00
 ---
 
 mongodb 常用命令收集

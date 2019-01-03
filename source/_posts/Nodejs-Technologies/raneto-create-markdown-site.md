@@ -1,6 +1,11 @@
----
 title: 使用Raneto结合Github来搭建简易个人的BLog
-description: 使用Raneto结合Github来搭建简易个人的BLog, 将github 厂库的markdown文档展示在blog网站上
+description: '使用Raneto结合Github来搭建简易个人的BLog, 将github 厂库的markdown文档展示在blog网站上'
+tags:
+  - cms
+  - nodejs
+categories:
+  - 工具
+date: 2018-01-05 20:36:00
 ---
 使用Raneto结合Github来搭建简易个人的BLog, 将github 厂库的markdown文档展示在blog网站上。 笔者blog： http://tech.jiu-shu.com
 

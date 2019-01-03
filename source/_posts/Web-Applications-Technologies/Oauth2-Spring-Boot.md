@@ -1,11 +1,17 @@
----
 title: 利用Spring Boot Oauth2 来熟悉oauth2 之 - Authorization Code Grant
 description: 利用Spring Boot Oauth2 来熟悉oauth2 之 - Authorization Code Grant
+tags:
+  - spring
+  - spring boot
+  - oauth2
+categories:
+  - Web技术
+date: 2017-09-03 20:36:00
 ---
 ### 参考文献
 
  - rfc 文档： [RFC 6749 - The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749#section-4.1)
- - Spring boot oauth2 示例 [Tutorial · Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+ - spring boot oauth2 示例 [Tutorial · Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
 
 ### 代码：
 https://github.com/spring-guides/tut-spring-boot-oauth2

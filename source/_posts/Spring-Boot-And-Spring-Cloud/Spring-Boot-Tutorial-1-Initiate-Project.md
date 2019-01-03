@@ -1,6 +1,10 @@
----
 title: Spring Boot开发 web 应用 - 01 创建项目
 description: Spring Boot 开发web 应用 - 01 创建项目; 多种方式创建项目
+tags:
+  - spring boot
+categories:
+  - Web技术
+date: 2018-08-03 20:36:00
 ---
 Spring Boot非常适合Web应用程序开发。使用spring-boot-starter-web模块快速启动和运行。 其中使用嵌入式Tomcat，Jetty或Undertow轻松创建自包含的HTTP服务器
 

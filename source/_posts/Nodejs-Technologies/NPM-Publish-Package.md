@@ -1,6 +1,10 @@
----
 title: 向NPM仓库发布自己的Package
 description: 阐述如何使用npm发布自己的Package
+tags:
+  - npm
+categories:
+  - Nodejs技术
+date: 2018-01-08 20:36:00
 ---
 
 阐述如何使用npm发布自己的Package
