@@ -11,10 +11,10 @@
 nav_menu:
   - name: 主页
     icon: fas fa-home
-    url: http://tech.jiu-shu.com/
+    url: http://it.jiu-shu.com/
   - name: 项目
     icon: fas fa-flask
-    url: http://tech.jiu-shu.com/projects/
+    url: http://it.jiu-shu.com/projects/
   - name: 博客
     icon: fas fa-rss
     url: /
@@ -23,16 +23,16 @@ nav_menu:
     url: archives/
   - name: 关于
     icon: fas fa-user
-    url: http://tech.jiu-shu.com/about/
+    url: http://it.jiu-shu.com/about/
 
 # 公告的写法示例，这只是个例子哦，需要显示公告的时候写在主目录的config中，不需要的时候注释掉就可以，如果你十分喜欢这个主题，可以把这个公告copy到你那里😄
-announcement: '本站使用 <b><a href="http://tech.jiu-shu.com/wiki/material-x/">Material X</a></b> 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦。'
+announcement: '本站使用 <b><a href="http://it.jiu-shu.com/wiki/material-x/">Material X</a></b> 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦。'
 
 # 友链的写法示例
 links:
 - name: xaoxuu's blog
-  avatar: http://tech.jiu-shu.com/assets/img/avatar.jpg
-  url: http://tech.jiu-shu.com/blog
+  avatar: http://it.jiu-shu.com/assets/img/avatar.jpg
+  url: http://it.jiu-shu.com/blog
 
 # 页脚社交信息的写法示例
 social:
@@ -44,7 +44,7 @@ social:
     url: https://music.163.com/#/user/home?id=781987646
 
 # 博主信息的写法示例
-avatar: http://tech.jiu-shu.com/assets/img/avatar.jpg
+avatar: http://it.jiu-shu.com/assets/img/avatar.jpg
 title: 博客名称
 motto: 这是我的座右铭
 

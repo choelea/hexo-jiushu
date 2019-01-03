@@ -192,4 +192,4 @@ http://localhost:8080/products/aggregation?keyword=China 可以查出总共有5�
 ```
 
 ## 高亮显示
-参考：http://tech.jiu-shu.com/Elastic-Technologies/spring-data-elasticsearch-highlight
+参考：http://it.jiu-shu.com/Elastic-Technologies/spring-data-elasticsearch-highlight
